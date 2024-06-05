@@ -236,7 +236,7 @@ def draw_menu(stdscr, menu, current_row):
     h, w = stdscr.getmaxyx()
     
     # Print the title at the top
-    title = pyfiglet.figlet_format("Package Manager", font="slant")
+    title = pyfiglet.figlet_format("Crumb Packer", font="slant")
     title_lines = title.split("\n")
     
     # Print title lines
